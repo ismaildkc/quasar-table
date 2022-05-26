@@ -287,7 +287,6 @@ const notify = (text, color, type) => {
 };
 
 const clearData = (data) => {
-  console.log(data);
   userDetail.value = "";
   isModalOpened.value = false;
   fetchUsers();
